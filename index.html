@@ -2,11 +2,11 @@
 
 if [ $1 ]
 then
-curl --output - "https://dl.dropboxusercontent.com/s/ky48wwrjjenpf2p/NoobOSv1.0.txz?dl=0" | tar -C $1 -xvJf -
+curl --output - "https://dl.dropboxusercontent.com/s/ky48wwrjjenpf2p/NoobOS-x86_64-v1.0.txz?dl=0" | tar -C $1 -xvJf -
 
 elif [ $NOS ]
 then
-curl --output - "https://dl.dropboxusercontent.com/s/ky48wwrjjenpf2p/NoobOSv1.0.txz?dl=0" | tar -C $NOS -xvJf -
+curl --output - "https://dl.dropboxusercontent.com/s/ky48wwrjjenpf2p/NoobOS-x86_64-v1.0.txz?dl=0" | tar -C $NOS -xvJf -
 
 else
 echo "USGAE: $0 install_directory\or\nUSGAE: $0\nNOS == install directory env variable"
